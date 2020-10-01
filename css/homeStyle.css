@@ -209,12 +209,16 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #A07D7D;
+
 }
+.navbar-default .nav li a:hover {
 
-
+    color: #fff;
+    
+}
 
 .navbar-default .nav li a:focus {
     outline: 0;
